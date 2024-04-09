@@ -4,12 +4,13 @@ Esse projeto tem como objetivo construir um museu com artigos voltados ao campo 
 
 ## Features
 
-✅ - Readme do projeto
-🕐 - Página principal
-🕐 - Formulário de agendamento de visitação externa
-🕐 - Museu Virtual
-🕐 - Página individual de cada item do múseu
-🕐 - Redes sociais do projeto
+ - ✅ Readme do projeto
+
+ - 🕐 Página principal
+ - 🕐 Formulário de agendamento de visitação externa
+ - 🕐 Museu Virtual
+ - 🕐 Página individual de cada item do múseu
+ - 🕐 Redes sociais do projeto
 
 ## Tecnologias utilizadas até agora
 
