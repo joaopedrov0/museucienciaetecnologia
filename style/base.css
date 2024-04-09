@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Vollkorn", serif; LOGO*/
+/* font-family: "Signika Negative", sans-serif; BUTTONS*/
+/* font-family: "Work Sans", sans-serif; TEXTO */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #292929;
+    font-family: "Work Sans", sans-serif;
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px 0 3px 0;
+}
+
+/* Header */
+
+header{
+    background-color: #03012C;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: "Vollkorn", serif;
+}
+
+header a.logo *{
+    color: #EAEAEA;
+    font-size: 24px;
+}
+
+header .logo img{
+    max-height: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header nav{
+    width: clamp(300px, 20%, 500px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #EAEAEA;
+    font-family: "Signika Negative", sans-serif;
+}
+
+header nav a.nav-btn.active {
+    color: #20A4F3;
+}
+
+/* Content */
+
+main {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+}
+
+.wrap{
+    width: clamp(300px, 80%, 960px);
+    padding: 30px;
+}
+
+.card-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card{
+    width: clamp(200px, 30%, 100%);
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 3px;
+
+    transition: all 200ms ease-in;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card .media-card {
+    width: calc(clamp(200px, 100%, 100%) - 20px);
+    margin: 10px;
+    position: relative;
+
+    border-radius: 3px;
+}
+
+.card .media-card img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.card .media-card h4.media-card-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: #292929D9; */
+    background-image: linear-gradient(to top, #292929, #292929D9);
+    color: #EAEAEA;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.card .desc-card{
+    width: calc(clamp(200px, 100%, 100%) - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* Footer */
+
