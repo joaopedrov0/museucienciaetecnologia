@@ -286,7 +286,7 @@ footer .deep-footer{
         height: 30px;
     }
     header .logo h1, header .logo h2{
-        font-size: 15px;
+        font-size: 14px;
         padding: 5px;
     }
     header a{
@@ -305,7 +305,7 @@ footer .deep-footer{
         padding: 0 10px;
         font-size: 14px;
     }
-    .title-container{
+    .title-container h1, .title-container h2{
         font-size: 24px;
     }
 
