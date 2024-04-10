@@ -299,4 +299,8 @@ footer .deep-footer{
     .title-container{
         font-size: 24px;
     }
+
+    footer .content-footer .content-footer-column{
+        width: 45%;
+    }
 }
