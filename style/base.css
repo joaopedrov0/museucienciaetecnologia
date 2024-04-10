@@ -274,11 +274,20 @@ footer .deep-footer{
         padding: 7px 0;
     }
     header .logo{
-        height: 30px;
+        height: 50px;
         font-size: 18px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo img{
+        height: 30px;
     }
     header .logo h1, header .logo h2{
         font-size: 15px;
+        padding: 5px;
     }
     header a{
         display: flex;
@@ -294,7 +303,7 @@ footer .deep-footer{
     }
     header nav a.nav-btn{
         padding: 0 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .title-container{
         font-size: 24px;
@@ -302,5 +311,9 @@ footer .deep-footer{
 
     footer .content-footer .content-footer-column{
         width: 45%;
+    }
+
+    main{
+        padding: 25px 0;
     }
 }
