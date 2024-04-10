@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #03012C;
     display: flex;
     justify-content: center;
-    padding: 7px 0;
 }
 
 header{
@@ -227,6 +226,7 @@ main {
     }
     .header{
         height: 100px;
+        padding: 7px 0;
     }
     header .logo{
         height: 30px;
