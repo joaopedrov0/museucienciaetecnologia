@@ -147,8 +147,12 @@ main {
     padding: 50px 0;
 }
 
-main a:hover{
-    text-decoration: dashed;
+main .wrap p a{
+    text-decoration: none;
+}
+
+main .wrap p a:hover{
+    text-decoration: underline;
 }
 
 .wrap{
@@ -260,6 +264,10 @@ footer .deep-footer{
     border-radius: 15px;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 /* Forms */
 
 form{
@@ -353,8 +361,12 @@ form .form-column input, form .form-column select{
         font-size: 24px;
     }
 
+    footer .content-footer {
+        flex-direction: column;
+    }
+
     footer .content-footer .content-footer-column{
-        width: 45%;
+        width: 100%;
     }
 
     main{
