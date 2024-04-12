@@ -11,6 +11,7 @@ Esse projeto tem como objetivo construir um museu com artigos voltados ao campo 
  - 🕐 Museu Virtual
  - 🕐 Página individual de cada item do museu
  - 🕐 Redes sociais do projeto
+ - 🕐 Página de créditos
  - ✅ Design responsivo
 
 ## Tecnologias utilizadas até agora
