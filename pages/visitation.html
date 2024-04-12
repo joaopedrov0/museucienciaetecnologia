@@ -7,6 +7,9 @@
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="../style/base.css">
+
+        <!-- Integration with EmailJS API -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     </head>
     <body>
         <div class="header">
@@ -28,7 +31,47 @@
         <main>
             <div class="wrap">
                 <h2>Formulário de agendamento de Visitação Externa</h2>
-                <p>Em breve...</p>
+                <p>Preencha este formulário para que possamos ser notificados do seu interesse em fazer a visitação. O email que você inserir será usado por nós para confirmar a visitação com você e outras trocas de informações importantes para que a visitação seja agendada corretamente. As informações sobre quantidade de pessoas e, em caso de vínculo com alguma instituição, a série que estará na visitação, são usadas para que possamos nos preparar para recebê-los da melhor forma possível.</p>
+                <form id="scheduling" onsubmit="send()">
+                    <div class="form-row">
+                        <div class="form-column">
+                            <label for="name">Nome do responsável</label>
+                            <input type="text" name="name" placeholder="Nome do responsável" required>
+                            <label for="email">Email do responsável</label>
+                            <input type="email" name="email" placeholder="Email do responsável" required>
+                            <label for="date">Data desejada da visitação</label>
+                            <input type="date" name="date" placeholder="Data desejada" required>
+                            <label for="time">Horário desejado da visitação</label>
+                            <input type="text" name="time" placeholder="Horário desejado" required>
+                            <label for="quantity">Quantidade de pessoas da visitação</label>
+                            <input type="number" name="quantity" placeholder="Quantidade de pessoas" required>
+                        </div>
+                        <div class="form-column">
+                            <h4>Se a visita não for vinculada a nenhuma instituição, deixe em branco</h4>
+                            <label for="insitutionName">Nome da instituição</label>
+                            <input type="text" name="institutionName" placeholder="Nome da instituição">
+                            <label for="grade">Selecione a série que estará na visitação</label>
+                            <select name="grade">
+                                <option value="" selected disabled>Selecione a série</option>
+                                <option value="1° ano - Ensino Fundamental">1° ano - Ensino Fundamental</option>
+                                <option value="2° ano - Ensino Fundamental">2° ano - Ensino Fundamental</option>
+                                <option value="3° ano - Ensino Fundamental">3° ano - Ensino Fundamental</option>
+                                <option value="4° ano - Ensino Fundamental">4° ano - Ensino Fundamental</option>
+                                <option value="5° ano - Ensino Fundamental">5° ano - Ensino Fundamental</option>
+                                <option value="6° ano - Ensino Fundamental">6° ano - Ensino Fundamental</option>
+                                <option value="7° ano - Ensino Fundamental">7° ano - Ensino Fundamental</option>
+                                <option value="8° ano - Ensino Fundamental">8° ano - Ensino Fundamental</option>
+                                <option value="9° ano - Ensino Fundamental">9° ano - Ensino Fundamental</option>
+                                <option value="1° ano - Ensino Médio">1° ano - Ensino Médio</option>
+                                <option value="2° ano - Ensino Médio">2° ano - Ensino Médio</option>
+                                <option value="3° ano - Ensino Médio">3° ano - Ensino Médio</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="submitBtn">Enviar</button>
+                    </div>
+                </form>
             </div>
         </main>
         <footer>
