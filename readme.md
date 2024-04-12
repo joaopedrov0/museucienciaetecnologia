@@ -12,6 +12,7 @@ Esse projeto tem como objetivo construir um museu com artigos voltados ao campo 
  - 🕐 Página individual de cada item do museu
  - 🕐 Redes sociais do projeto
  - 🕐 Página de créditos
+ - 🕐 Componentizar CSS
  - ✅ Design responsivo
 
 ## Tecnologias utilizadas até agora
