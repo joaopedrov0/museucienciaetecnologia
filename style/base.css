@@ -147,6 +147,10 @@ main {
     padding: 50px 0;
 }
 
+main .wrap p {
+    text-align: justify;
+}
+
 main .wrap p a{
     text-decoration: none;
 }
