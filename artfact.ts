@@ -5,6 +5,10 @@ class Artfact{
     name: String
     category: Number
     description: String
+    id: Number
+    image: String
+
+    // <artfactid-imageNum.png>
 
     categoryList = [
         "Peças de computador",
