@@ -3,3 +3,77 @@
 .tag{
     padding: 3px;
 }
+
+hr{
+    margin: 15px 0;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.5)
+}
+
+dl{
+    border-left: 4px solid rgba(100, 100, 100);
+    padding: 10px;
+    background-color: #E9E9E9;
+}
+
+dt{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+dd{
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+dd:last-child{
+    margin-bottom: 0;
+}
+
+dt::before{
+    content: '#';
+}
+
+dt.motherboard{
+    background: #ead1dc;
+    color: #a64d79;
+}
+
+dt.videocard{
+    background: #fff2cc;
+    color: #f1c232;
+}
+
+dt.storage{
+    background: #d9ead3;
+    color: #38761d;
+}
+
+dt.internal-components{
+    background: #fce5cd;
+    color: #b45f06;
+}
+
+dt.peripheral{
+    background: #d0e0e3;
+    color: #134f5c;
+}
+
+dt.printer{
+    background: #d9d2e9;
+    color: #351c75;
+}
+
+dt.mobile{
+    background: #d9d2e9;
+    color: #741b47;
+}
+
+dt.computer{
+    background: #d9d2e9;
+    color: #990000;
+}
+
+dt.notebook{
+    background: #f4cccc;
+    color: #990000;
+}
