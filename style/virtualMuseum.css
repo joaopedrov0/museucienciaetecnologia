@@ -1,4 +1,4 @@
-.artfact{}
+/* .artfact{} */
 
 .tag{
     padding: 3px;
@@ -76,4 +76,15 @@ dt.computer{
 dt.notebook{
     background: #f4cccc;
     color: #990000;
+}
+
+.gallery-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-area img{
+    margin: 2px;
+    width: clamp(300px, 30%, 30vw);
 }
