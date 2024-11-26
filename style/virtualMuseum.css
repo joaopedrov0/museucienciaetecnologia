@@ -29,62 +29,114 @@ dd:last-child{
     margin-bottom: 0;
 }
 
-dt::before{
+dt::before, .tag-area > *::before{
     content: '#';
 }
 
-dt.motherboard{
+dt.motherboard, span.motherboard{
     background: #ead1dc;
     color: #a64d79;
 }
 
-dt.videocard{
+dt.videocard, span.videocard{
     background: #fff2cc;
     color: #f1c232;
 }
 
-dt.storage{
+dt.storage, span.storage{
     background: #d9ead3;
     color: #38761d;
 }
 
-dt.internal-components{
+dt.internal-components, span.internal-components{
     background: #fce5cd;
     color: #b45f06;
 }
 
-dt.peripheral{
+dt.peripheral, span.peripheral{
     background: #d0e0e3;
     color: #134f5c;
 }
 
-dt.printer{
+dt.printer, span.printer{
     background: #d9d2e9;
     color: #351c75;
 }
 
-dt.mobile{
+dt.mobile, span.mobile{
     background: #d9d2e9;
     color: #741b47;
 }
 
-dt.computer{
+dt.computer, span.computer{
     background: #d9d2e9;
     color: #990000;
 }
 
-dt.notebook{
+dt.notebook, span.notebook{
     background: #f4cccc;
     color: #990000;
 }
 
 .gallery-area{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: start;
+    overflow-x: auto;
+    margin: 5px 5px 5px 0;
+    border-radius: 25px;
 }
 
 .gallery-area img{
-    margin: 2px;
+    margin: 3px;
     width: clamp(300px, 30%, 30vw);
+    border-radius: 25px;
+}
+
+.tag-area{
+    margin: 5px 0;
+}
+
+.tag-area > * {
+    margin: 5px;
+}
+
+.artfact-collection{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.artfact-container{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5px;
+}
+
+.artfact-container.extended{
+    width: 100%;
+}
+
+.artfact-container .gallery-area img{
+    width: 90%;
+}
+p{
+    margin: inherit;
+}
+
+.wrap a.returnAnchor{
+    color: #EAEAEA;
+    background-color: #03012C;
+    padding: 5px;
+    border-radius: 5px;
+    /* position: absolute; */
+}
+
+div.returnAnchor{
+    
+    margin: 15px 0;
 }

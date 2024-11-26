@@ -39,48 +39,83 @@
                 
                 <p>A seguir você pode conferir uma explicação breve de cada categoria de item do museu.</p>
                 
-                <h2>Categorias</h2>
+                <h2 id="category">Categorias</h2>
                 <dl>
-                    <dt class="motherboard">Placa mãe</dt>
+                    <dt class="motherboard"><a href="#motherboard" class="cleanLink">Placa mãe</a></dt>
                     <dd>Categoria reservada a placa mãe, a peça que une os componentes internos de um computador.</dd>
 
-                    <dt class="videocard">Placa de vídeo</dt>
+                    <dt class="videocard"><a href="#videocard" class="cleanLink">Placa de vídeo</a></dt>
                     <dd>Categoria reservada a placa de vídeo, componente responsável pelo processamento gráfico do computador.</dd>
 
-                    <dt class="storage">Armazenamento</dt>
+                    <dt class="storage"><a href="#storage" class="cleanLink">Armazenamento</a></dt>
                     <dd>Categoria reservada aos componentes responsáveis pelo armazenamento persistente de dados de um computador.</dd>
 
-                    <dt class="internal-components">Componente Interno</dt>
+                    <dt class="internal-components"><a href="#internal-components" class="cleanLink">Componente Interno</a></dt>
                     <dd>Categoria reservada a qualquer componente interno de um computador, como por exemplo processador, memória principal, etc.</dd>
 
-                    <dt class="peripheral">Periférico</dt>
+                    <dt class="peripheral"><a href="#peripheral" class="cleanLink">Periférico</a></dt>
                     <dd>Categoria reservada a periféricos de um computador, como por exemplo teclado, mouse, etc.</dd>
 
-                    <dt class="printer">Impressora</dt>
+                    <dt class="printer"><a href="#printer" class="cleanLink">Impressora</a></dt>
                     <dd>Categoria reservada para dispositivos de impressão.</dd>
 
-                    <dt class="mobile">Telemóvel</dt>
+                    <dt class="mobile"><a href="#mobile" class="cleanLink">Telemóvel</a></dt>
                     <dd>Categoria reservada a aparelhos celulares e similares.</dd>
 
-                    <dt class="computer">Computador</dt>
+                    <dt class="computer"><a href="#computer" class="cleanLink">Computador</a></dt>
                     <dd>Categorias reservadas para computadores de mesa (que usam de gabinetes)</dd>
 
-                    <dt class="notebook">Notebook</dt>
+                    <dt class="notebook"><a href="#notebook" class="cleanLink">Notebook</a></dt>
                     <dd>Categoria reservada a computadores portáteis.</dd>
                 </dl>
 
-                
+                <!-- TEMPLATE
+                <div class="artfact-collection">
+                    <div class="artfact-container"> ! Se quiser que ocupe todo o espaço horizontal
+                        <h4 class="gallery-description">Nome</h4>
+                        <div class="tag-area">
+                            <span class="category1">tag1</span>
+                            <span class="category2">tag2</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/00X-0Y.jpg" alt="image 0Y artfact X">
+                        </div>
+                        <a href="link se tiver ficha tecnica">Ficha técnica disponível.</a>
+                    </div>
+                </div> -->
 
                 <hr>
 
-                <h2>Placa mãe</h2>
+                
+                <h2 id="motherboard">Placa mãe</h2>
                 <p>De modo resumido, as placas-mãe são componentes importantes que fornecem conexões entre os componentes internos do computador. Com a evolução da tecnologia, algumas dessas conexões foram aprimoradas, possibilitando um aumento na eficiência dos componentes conectados nela.</p>
 
                 <p>Antigamente, inclusive, a placa mãe tinha mais responsabilidades. Era possível encontrar, por exemplo, placas-mãe com um circuito responsável pelo processamento gráfico</p>
 
+                <p>Mais conteúdo sobre essa categoria em breve!</p>
+                <h3>No acervo</h3>
+                
+                <!-- tag para coleção de imagens -->
+                <div class="artfact-collection">
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">ASUS A7V8X-MX SE</h4>
+                        <div class="tag-area">
+                            <span class="motherboard">placa-mãe</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/001-01.jpg" alt="image 01 artfact 1">
+                        </div>
+                        <a href="https://www.clubedohardware.com.br/analises/placas-mae/placa-m%C3%A3e-asus-a7v8x-mx-se-r34002/">Ficha técnica disponível.</a>
+                    </div>
+                </div>
 
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
 
-                <h2>Placa de vídeo</h2>
+                <h2 id="videocard">Placa de vídeo</h2>
                 <p>Placas de vídeo, também conhecidas como <b>GPUs</b> (<i>Graphics Processing Unit</i>), são componentes semelhantes aos <b>CPUs</b> (<i>Central Processing Unit</i>), porém com uma diferença importante e que muda completamente suas aplicações. GPUs, ao contrário das CPUs são desenhadas para executar processos simples, porém numerosos. Costumam lidar bem com processamento de quantidades massivas de dados, como no processamento de pixels para a renderização gráfica de <i>softwares</i> como jogos ou programas de modelagem 3d.</p>
                 <br>
                 <p>Nas especificações de <i>hardware</i>, podemos notar as diferenças entre GPUs e CPUs na <b>menor frequência</b> dos núcleos, ao mesmo tempo que tem <b>maior quantidade</b> destes núcleos.</p>
@@ -90,18 +125,25 @@
                 <p>Completando a analogia, talvez o chef renomado não consiga lidar bem sozinho com milhares de pedidos de pratos, ainda que simples, ao mesmo tempo que a equipe de cozinheiros talvez não tenha domínio de todas as técnicas necessárias para terminar rapidamente o prato complexo que o chef é capaz de fazer.</p>
                 <p>Resumindo, o <b>chef renomado (CPU)</b> brilha na hora de preparar um prato (processo) complexo, enquanto a <b>equipe de chefs (GPU)</b> consegue desempenhar melhor na hora de preparar múltiplos pratos paralelamente.</p>
 
-                <!-- <h3>No acervo</h3> -->
+                <h3>No acervo</h3>
                 
+                <div class="artfact-collection">
+                    <div class="artfact-container extended">
+                        <h4 class="gallery-description">AMD GHOST XFX R7850 860M</h4>
+                        <div class="tag-area">
+                            <span class="videocard">placa-de-vídeo</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/004-01.jpg" alt="image 01 artfact 4">
+                            <img src="../img/artfact-image/004-02.jpg" alt="image 02 artfact 4">
+                            <img src="../img/artfact-image/004-03.jpg" alt="image 03 artfact 4">
+                        </div>
+                    </div>
+                </div>
                 <!-- tag para coleção de imagens -->
 
-                <!-- <div class="gallery-area">
-                    <img src="../img/artfact-image/004-01.jpg" alt="image 01 artfact 4">
-                    <img src="../img/artfact-image/004-02.jpg" alt="image 02 artfact 4">
-                    <img src="../img/artfact-image/004-03.jpg" alt="image 03 artfact 4">
-                </div> -->
-
                 <!-- tag para descrição da galeria -->
-                <p class="gallery-description"></p>
                 
                 <!-- <h3>Evolução das placas de vídeo</h3> -->
 
@@ -117,8 +159,12 @@
 
 
                 <!-- execução paralela // CUDA -->
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
 
-                <h2>Armazenamento</h2>
+                <h2 id="storage">Armazenamento</h2>
                 <p>Os dispositivos de armazenamento são responsáveis por guardar dados, seja de forma persistente (por exemplo: HDs, CDs, etc.) ou não (por exemplo: RAM).</p>
 
                 <p>São esses os dispositivos que tornam o computador capaz de "se lembrar" das informações.</p>
@@ -131,38 +177,161 @@
 
                 <p>Com a evolução das tecnologias de armazenamento de dados, surgiram outras soluções que apesar de mais caras no custo por gigabyte, tinham uma velocidade de leitura e escrita de dados ordens de grandeza acima, como os SSDs SATA e NVMe, que utilizam circuitos eletrônicos para armazenar e ler os dados, não dependendo de meios mecânicos.</p>
 
+
+                <h3>No acervo</h3>
+
+                
+                <div class="artfact-collection">
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">Barracuda 7200.10 250 Gbytes</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/002-01.jpg" alt="image 01 artfact 2">
+                            <img src="../img/artfact-image/002-02.jpg" alt="image 02 artfact 2">
+                            <img src="../img/artfact-image/002-03.jpg" alt="image 03 artfact 2">
+                        </div>
+                    </div>
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">Western Digital WD5000AVVS</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/005-01.jpg" alt="image 01 artfact 5">
+                        </div>
+                    </div>
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">Western Digital WD800BD</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/006-01.jpg" alt="image 01 artfact 6">
+                        </div>
+                    </div>
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">Samsung SP0802N</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/007-01.jpg" alt="image 01 artfact 7">
+                        </div>
+                        <a href="https://hddfaqs.com/samsung-sp0802n/">Ficha técnica disponível.</a>
+                    </div>
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">IBM H3133 A2</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/008-01.jpg" alt="image 01 artfact 8">
+                        </div>
+                    </div>
+                    <div class="artfact-container">
+                        <h4 class="gallery-description">Samsung SP1604N</h4>
+                        <div class="tag-area">
+                            <span class="storage">armazenamento</span>
+                            <span class="internal-components">componente-interno</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/009-01.jpg" alt="image 01 artfact 9">
+                        </div>
+                        <a href="https://hddfaqs.com/samsung-sp1604n/">Ficha técnica disponível.</a>
+                    </div>
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
+
                 <!-- pesquisar sobre organização e funcionamento de ssds e hds, e enfatizar sua evolução -->
 
-                <h2>Componente Interno</h2>
+                <h2 id="internal-components">Componente Interno</h2>
                 <p>Quando falamos em componentes internos de um computador, estamos falando dos componentes que fazem suas funções mais básicas funcionarem, como placa-mãe, placa de vídeo, pentes de memória RAM, processador, etc. De modo simplificado, podemos dizer que esses componentes são responsáveis pelas funcionalidades básicas de um computador, isso é, não incluem outras responsabilidades como captar entrada de usuários ou exibir o vídeo, que seriam responsabilidades de periféricos.</p>
-
+                <p>Mais conteúdo sobre essa categoria em breve!</p>
                 <!-- explicar por cima a interação dos componentes internos de um computador -->
 
-                <h2>Periférico</h2>
+                <h2 id="peripheral">Periférico</h2>
                 <p>Quando falamos em periféricos estamos falando sobre componentes que fazem outras funcionalidades além de armazenar e processar dados. Estamos falando de equipamentos desenhados para captar entradas de usuário, devolver respostas (em vídeo, por exemplo, como nos monitores) ou então imprimir algum documento.</p>
 
                 <p>Essa categoria é extremamente vasta e inclui componentes que tiveram uma grande evolução ao longo da história, como os teclados que começaram mecânicos, "evoluiram" pra uma versão mais barata que usa a membrana de borracha, comuns em computadores domésticos de hoje em dia, e depois o retorno dos teclados mecânicos com switchs melhorados.</p>
                 <p>Além disso, os mouses também sofreram grandes mudanças ao longo do tempo, como o abandono da tecnologia da "bolinha" usada para detectar o movimento do periférico, para usar luz infravermelha para fazer essa detecção de forma mais rápida e precisa.</p>
-
+                <p>Mais conteúdo sobre essa categoria em breve!</p>
                 <!-- explicar sobre perifericos e suas diferenças
 
                 contar historia da evolução dos teclados mecanicos e de membrana -->
 
-                <h2>Impressora</h2>
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
+
+                <h2 id="printer">Impressora</h2>
                 <p>Em breve...</p>
 
                 <!-- explicar como funcionam algumas soluções de impressora -->
 
-                <h2>Telemóvel</h2>
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
+                <h2 id="mobile">Telemóvel</h2>
                 <p>Os aparelhos telemóveis marcaram uma grande evolução da computação quando demonstraram a capacidade de trazer os computadores que antes ocupavam salas inteiras para a palma da mão das pessoas.</p>
-
                 <!-- ! Terminar -->
-                <p>Mais em breve...</p>
+                <p>Mais conteúdo sobre essa categoria em breve!</p>
+                
+                
+                <h3>No acervo</h3>
+                <!-- <div class="artfact-collection">
+                    <div class="artfact-container"></div>
+                </div> -->
+                <div class="artfact-collection">
+                    <div class="artfact-container extended">
+                        <h4 class="gallery-description">Motorola DPC650</h4>
+                        <div class="tag-area">
+                            <span class="mobile">telemóvel</span>
+                        </div>
+                        <div class="gallery-area">
+                            <img src="../img/artfact-image/003-01.jpg" alt="image 01 artfact 3">
+                            <img src="../img/artfact-image/003-02.jpg" alt="image 02 artfact 3">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
 
-                <h2>Computador</h2>
+                <h2 id="computer">Computador</h2>
                 <p>Em breve...</p>
 
-                <h2>Notebook</h2>
+                
+                <!-- ? RETURN ANCHOR !!! -->
+                <div class="returnAnchor">
+                    <a href="#category" class="cleanLink returnAnchor" style="margin-top:15px;">Voltar para o topo</a>
+                </div>
+
+                <h2 id="notebook">Notebook</h2>
                 <p>Em breve...</p>
 
                 <!-- explicar sobre variaçoes de tipos de notebooks e deixar nitido as diferenças dos desafios enfrentados entre notebooks e pcs de mesa, como soluções de refrigeração -->

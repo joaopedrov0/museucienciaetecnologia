@@ -316,6 +316,10 @@ form .form-column input, form .form-column select{
     background-color: #03012CEE;
 }
 
+.cleanLink{
+    color: inherit;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 1100px){
@@ -382,5 +386,11 @@ form .form-column input, form .form-column select{
 
     form .form-column{
         width: 100%;
+    }
+    .artfact-collection .artfact-container{
+        width: 100%;
+    }
+    .artfact-collection .artfact-container .gallery-area img{
+        width: 90%;
     }
 }
