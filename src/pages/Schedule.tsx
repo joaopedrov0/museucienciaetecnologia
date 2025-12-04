@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { motion } from 'motion/react';
 import { Calendar, Clock, Users, Mail, User, Phone, MessageSquare, CheckCircle2, AlertCircle, Info } from 'lucide-react';
 import { toast } from 'sonner';
+import emailjs from '@emailjs/browser';
 import {
   scheduleConfig,
   isDateAvailable,
@@ -28,6 +29,7 @@ export function Schedule() {
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [availableTimeSlots, setAvailableTimeSlots] = useState(scheduleConfig.timeSlots);
   const [dateError, setDateError] = useState<string>('');
+  const [isSending, setIsSending] = useState(false);
 
   const {
     register,
@@ -59,7 +61,7 @@ export function Schedule() {
         setDateError('');
         const slots = getAvailableTimeSlotsForDate(date);
         setAvailableTimeSlots(slots);
-        setValue('time', ''); // Limpa o horário selecionado quando muda a data
+        setValue('time', '');
       }
     }
   }, [watchedDate, setValue]);
@@ -91,6 +93,27 @@ export function Schedule() {
       setSelectedDate('');
     }, 5000);
   };
+
+  // função para inserir dados para envio de e-mail, verificar a documentação em https://www.emailjs.com/docs/tutorial/overview/
+  const enviarEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+  setIsSending(true);
+
+  try {
+    await emailjs.sendForm(
+      "service_3wgptaf",   // ID do service
+      "template_1pfxndb",  // ID do template
+      e.currentTarget,
+      "bOMt_FFNbZmqcYCTP"  // Chave pública
+    );
+
+    toast.success("E-mail enviado com sucesso!");
+  } catch (err) {
+    console.error("Erro ao enviar:", err);
+    toast.error("Erro ao enviar o e-mail.");
+  }
+
+  setIsSending(false);
+};
 
   const nextAvailableDate = getNextAvailableDate();
   const minDate = nextAvailableDate.toISOString().split('T')[0];
@@ -234,7 +257,11 @@ export function Schedule() {
             transition={{ delay: 0.2 }}
             className="lg:col-span-2"
           >
-            <form onSubmit={handleSubmit(onSubmit)} className="bg-white rounded-xl p-8 shadow-sm border border-slate-200">
+            <form onSubmit={(e) => {
+              e.preventDefault();       
+              handleSubmit(onSubmit)(e);      
+              enviarEmail(e);                   
+            }} className="bg-white rounded-xl p-8 shadow-sm border border-slate-200">
               <div className="space-y-6">
                 <div>
                   <label className="block text-slate-700 mb-2">
