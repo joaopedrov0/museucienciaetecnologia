@@ -29,10 +29,10 @@ export const hardwareCollection: HardwareItem[] = [
       'Memória: Suporta módulos de memória RAM SIMM de 72 pinos',
       'Plataforma: Base para PCs de uso doméstico e corporativo'
     ],
-    imageUrl: '/src/assets/hardware/PLACA-MÃE_ASUS_486.png',
+    imageUrl: '/assets/hardware/PLACA-MÃE_ASUS_486.png',
     documentationUrl: '',
     historicalSignificance: 'Representou um salto de desempenho em relação à geração 386. Foi crucial para a democratização da tecnologia e a popularização da arquitetura x86 com multitarefa.'
-  },
+  },  
   {
     id: '2',
     name: 'PLACA CONTROLADORA MULTI-I/O (MULTI-INPUT/OUTPUT) ISA',
@@ -47,7 +47,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Controladores Integrados: Floppy Disk (FDD), IDE (Integrated Drive Electronics)',
       'Chip Principal: GoldStar GM16C450-2J-D (UART)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_CONTROLADORA_ISA.png',
+    imageUrl: '/assets/hardware/PLACA_CONTROLADORA_ISA.png',
     documentationUrl: '',
     historicalSignificance: 'Essencial para a funcionalidade básica de PCs da época (286, 386, 486), antes que essas portas fossem integradas nas placas-mãe. Simplificou a configuração e a expansão dos PCs.'
   },
@@ -65,7 +65,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conectividade: Porta USB Tipo-A, Jack de Áudio (para fone/microfone)',
       'Material: Placa de circuito impresso (PCB) com especificação UL 94V-0'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DAUGHTERBOARD.png',
+    imageUrl: '/assets/hardware/PLACA_DAUGHTERBOARD.png',
     documentationUrl: '',
     historicalSignificance: 'Avanço no design de notebooks que prioriza a modularidade e a manutenibilidade, reduzindo custos e tempo de reparo de portas danificadas.'
   },
@@ -82,7 +82,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Componentes: Chips DIP de lógica TTL/CMOS, Transformador/Indutor encapsulado',
       'Interface: Conectores para cabos planos (ribbon cables)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_TELECOMUNICAÇÕES_ANTIGAS.png',
+    imageUrl: '/assets/hardware/PLACA_TELECOMUNICAÇÕES_ANTIGAS.png',
     documentationUrl: '',
     historicalSignificance: 'Fundamental para a comunicação interna e externa em empresas antes da popularização das redes IP. Representa a modularidade dos sistemas de comunicação e é a base para as tecnologias de comunicação modernas (VoIP).'
   },
@@ -100,7 +100,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Tipo: Cooler Box (Stock), solução padrão de resfriamento',
       'Fixação: Presilha de clipe (típica de Socket AM2/AM3/AM3+)'
     ],
-    imageUrl: '/src/assets/hardware/COOLER_PROCESSADOR_COMPUTADOR.png',
+    imageUrl: '/assets/hardware/COOLER_PROCESSADOR_COMPUTADOR.png',
     documentationUrl: '',
     historicalSignificance: 'É um componente de suma importância para a estabilidade e desempenho de PCs modernos. Sua inclusão como solução de fábrica simplificou a montagem de PCs para o consumidor médio.'
   },
@@ -118,7 +118,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Velocidade: Provavelmente 10/100 Mbps (Fast Ethernet)',
       'Chip Principal: PRECOM PECL362P H0023 (Transceptor Ethernet)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_ETHERNET_PCI.png',
+    imageUrl: '/assets/hardware/PLACA_ETHERNET_PCI.png',
     documentationUrl: '',
     historicalSignificance: 'Democratizou a conectividade em rede e o acesso à internet banda larga antes da integração do Ethernet nas placas-mãe. Solidificou o padrão Ethernet com fio.'
   },
@@ -137,7 +137,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Formato: DIMM (Dual In-line Memory Module) para Desktop',
       'Latência: CL4 (Column Access Strobe)'
     ],
-    imageUrl: '/src/assets/hardware/MEMÓRIA_RAM_DDR.png',
+    imageUrl: '/assets/hardware/MEMÓRIA_RAM_DDR.png',
     documentationUrl: '',
     historicalSignificance: 'Representou um avanço significativo, dobrando a taxa de transferência de dados e impulsionando o desempenho para sistemas com Pentium 4 e Athlon XP. Estabeleceu a base para todas as gerações DDR subsequentes.'
   },
@@ -155,7 +155,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Chipset: Intel PRO/100',
       'Conexão: Ethernet RJ-45 (não visível, mas inerente à função)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_ETHERNET_PCI_INTEL_PRO100.png',
+    imageUrl: '/assets/hardware/PLACA_ETHERNET_PCI_INTEL_PRO100.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial para popularizar a Fast Ethernet (100 Mbps) e a internet banda larga, oferecendo confiabilidade e desempenho que impulsionaram a adoção em massa de redes de dados.'
   },
@@ -173,7 +173,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Recursos: Áudio 3D, Suporte a Efeitos (EAX)',
       'Conectores: Saída de linha (verde), Microfone (rosa), Line-in (azul) e outros'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DE_SOM_PCI_CREATIVE_LAB_SOUND_BLASTER.png',
+    imageUrl: '/assets/hardware/PLACA_DE_SOM_PCI_CREATIVE_LAB_SOUND_BLASTER.png',
     documentationUrl: '',
     historicalSignificance: 'Revolucionou o áudio em PCs, transformando o computador em uma plataforma multimídia e de jogos viável. Foi pioneira no áudio 3D imersivo para o mercado de consumo.'
   },
@@ -192,7 +192,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Saídas de Vídeo: 2x VGA (azuis)',
       'Resfriamento: Passivo (Dissipador de calor)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DE_VÍDEO_AGP_MATROX_G450.png',
+    imageUrl: '/assets/hardware/PLACA_DE_VÍDEO_AGP_MATROX_G450.png',
     documentationUrl: '',
     historicalSignificance: 'Pioneira na popularização do uso de múltiplos monitores (Dual Head) para aumentar a produtividade. Foi referência em qualidade de imagem 2D e fidelidade de cores para design gráfico e CAD.'
   },
@@ -211,7 +211,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Capacidade: 8MB (inferida)',
       'Uso: PCs com processadores Intel 486 e primeiros Pentium'
     ],
-    imageUrl: '/src/assets/hardware/MÓDULO_DE_MEMÓRIA_RAM_SIMM_DE_72_PINOS.png',
+    imageUrl: '/assets/hardware/MÓDULO_DE_MEMÓRIA_RAM_SIMM_DE_72_PINOS.png',
     documentationUrl: '',
     historicalSignificance: 'Representou um aumento crucial na capacidade e largura de banda da memória, sendo vital para o suporte a sistemas operacionais mais complexos como o Windows 95.'
   },
@@ -230,7 +230,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Slots de Expansão: PCI, AGP, CNR',
       'Processadores Suportados: AMD Athlon XP e Duron'
     ],
-    imageUrl: '/src/assets/hardware/PLACA-MÃE_ASUS_A7V8X-M.png',
+    imageUrl: '/assets/hardware/PLACA-MÃE_ASUS_A7V8X-M.png',
     documentationUrl: '',
     historicalSignificance: 'Plataforma-chave para os processadores AMD Athlon XP, que eram fortes concorrentes do Intel Pentium 4. Demonstra o crescente nível de integração de funcionalidades diretamente nas placas-mãe.'
   },
@@ -248,7 +248,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Chipset: VIA VT6212L (Controlador Host USB 2.0)',
       'Portas: Múltiplas portas USB Tipo-A'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DE_EXPANSÃO_USB_2.0_PCI.png',
+    imageUrl: '/assets/hardware/PLACA_DE_EXPANSÃO_USB_2.0_PCI.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial para a popularização do padrão USB 2.0. Permitiu que milhões de PCs fossem atualizados para suportar periféricos USB 2.0 mais rápidos, consolidando o USB como a interface universal de conectividade.'
   },
@@ -267,7 +267,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: SATA ou PCIe (dependendo do conector)',
       'Uso: Notebooks, Ultrabooks, Mini PCs'
     ],
-    imageUrl: '/src/assets/hardware/MÓDULO_M.2_mSATA_SSD.png',
+    imageUrl: '/assets/hardware/MÓDULO_M.2_mSATA_SSD.png',
     documentationUrl: '',
     historicalSignificance: 'Revolucionou o desempenho dos computadores e permitiu o desenvolvimento de dispositivos mais finos e leves, como os ultrabooks. É um símbolo da transição do armazenamento mecânico para o de estado sólido.'
   },
@@ -286,7 +286,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Memória: Típica 256KB - 512KB VRAM',
       'Saída de Vídeo: VGA (DB-15)'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DE_VÍDEO_ISA_TRIDENT_TVGA9000i.png',
+    imageUrl: '/assets/hardware/PLACA_DE_VÍDEO_ISA_TRIDENT_TVGA9000i.png',
     documentationUrl: '',
     historicalSignificance: 'Fundamental para a popularização do Super VGA e a adoção em massa de interfaces gráficas de usuário (GUIs) como o Windows 3.1 e Windows 95, tornando a computação mais visual.'
   },
@@ -306,7 +306,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Resfriamento: XFX Ghost Thermal Technology (Ventoinha única/dupla)',
       'Uso Principal: Gaming em 1080p'
     ],
-    imageUrl: '/src/assets/hardware/PLACA_DE_VÍDEO_XFX_RADEON_HD_7850.png',
+    imageUrl: '/assets/hardware/PLACA_DE_VÍDEO_XFX_RADEON_HD_7850.png',
     documentationUrl: '',
     historicalSignificance: 'Marcou o início da moderna arquitetura de GPUs da AMD (GCN) e foi uma placa essencial na consolidação do Full HD (1080p) como o padrão de jogos de consumo.'
   },
@@ -324,7 +324,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Controles: Botão de liga/desliga ou "mute" na base (vermelho)',
       'Uso Principal: Conferências, pódios, comunicações de voz'
     ],
-    imageUrl: '/src/assets/hardware/MICROFONE_DE_MESA_OU_DE_CONFERÊNCIA.png',
+    imageUrl: '/assets/hardware/MICROFONE_DE_MESA_OU_DE_CONFERÊNCIA.png',
     documentationUrl: '',
     historicalSignificance: 'Ferramenta essencial para a comunicação profissional em ambientes corporativos e públicos, facilitando a clareza da fala e a operação de sistemas de áudio com as mãos livres.'
   },
@@ -342,7 +342,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface de Rede: Ethernet e/ou USB',
       'Indicadores: LEDs de Power, DSL, Internet, LAN/Ethernet'
     ],
-    imageUrl: '/src/assets/hardware/MODEM ADSL DE BANDA LARGA.png',
+    imageUrl: '/assets/hardware/MODEM ADSL DE BANDA LARGA.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial para a revolução da internet banda larga, marcando a transição da conexão discada para a "sempre ativa", e possibilitando o consumo de multimídia e o uso intensivo da web.'
   },
@@ -360,7 +360,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Características: Canais múltiplos, Códigos de privacidade (CTCSS/DCS), Baterias recarregáveis',
       'Uso Principal: Comunicação ao ar livre, eventos e segurança'
     ],
-    imageUrl: '/src/assets/hardware/WALKIE-TALKIES MOTOROLA TALKABOUT.png',
+    imageUrl: '/assets/hardware/WALKIE-TALKIES MOTOROLA TALKABOUT.png',
     documentationUrl: '',
     historicalSignificance: 'Oferecem comunicação instantânea, gratuita e confiável, sendo essenciais em situações onde a infraestrutura de celular não está disponível. Representam a portabilidade e robustez em comunicações.'
   },
@@ -378,7 +378,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Mecanismo: Manual, disco de corte/fresa',
       'Material: Corpo robusto (plástico/metal)'
     ],
-    imageUrl: '/src/assets/hardware/MÁQUINA DE SULCAR LENTES ÓPTICAS.png',
+    imageUrl: '/assets/hardware/MÁQUINA DE SULCAR LENTES ÓPTICAS.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial para a popularização de armações leves e minimalistas ("fio de nylon"). Garante a precisão do acabamento da lente, fundamental para a correta centralização óptica.'
   },
@@ -397,7 +397,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Periféricos: Teclado físico, Touchpad',
       'Portas de Expansão: PCMCIA/CardBus, USB 1.1/2.0 (iniciais)'
     ],
-    imageUrl: '/src/assets/hardware/NOTEBOOK TOSHIBA SATÉLITE 1999.png',
+    imageUrl: '/assets/hardware/NOTEBOOK TOSHIBA SATÉLITE 1999.png',
     documentationUrl: '',
     historicalSignificance: 'Fundamental na transição para a computação móvel, integrando todas as mídias (disquete e CD/DVD) e estabelecendo a base para a conectividade portátil universal.'
   },
@@ -415,7 +415,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Tipo de Papel: Papel formulário (contínuo) e folhas soltas',
       'Uso Principal: Impressão de múltiplas vias (carbonados), faturas, recibos'
     ],
-    imageUrl: '/src/assets/hardware/IMPRESSORA MATRICIAL EPSON LX-300-II.png',
+    imageUrl: '/assets/hardware/IMPRESSORA MATRICIAL EPSON LX-300-II.png',
     documentationUrl: '',
     historicalSignificance: 'Apesar de ser uma tecnologia mais antiga, sua capacidade de imprimir em múltiplas vias a tornou indispensável em nichos de mercado (logística, contabilidade), onde a impressão a laser/jato de tinta não consegue competir.'
   },
@@ -433,7 +433,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Mecanismo: Manual (Requer leitura e ajuste do operador)',
       'Uso: Oftalmologia, Optometria e Ótica'
     ],
-    imageUrl: '/src/assets/hardware/LENSÔMETRO MANUAL.png',
+    imageUrl: '/assets/hardware/LENSÔMETRO MANUAL.png',
     documentationUrl: '',
     historicalSignificance: 'Pilar da saúde visual, garantindo que os pacientes recebam a correção visual correta. Estabeleceu o padrão de precisão na medição de lentes, servindo de base para os auto-lensômetros digitais modernos.'
   },
@@ -450,7 +450,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Material: Ferro fundido (corpo), Madeira (alça)',
       'Uso: Doméstico e Lavanderias, antes da eletrificação'
     ],
-    imageUrl: '/src/assets/hardware/FERRO DE PASSAR (USAVA O CARVÃO OU BRASAS).png',
+    imageUrl: '/assets/hardware/FERRO DE PASSAR (USAVA O CARVÃO OU BRASAS).png',
     documentationUrl: '',
     historicalSignificance: 'Solução de aquecimento portátil e eficiente para passar roupas em uma era pré-elétrica. Representa um avanço significativo em conveniência térmica em relação a ferros aquecidos diretamente em fogão.'
   },
@@ -468,7 +468,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conexão: Pinos expostos para cabo de energia removível',
       'Uso: Residências conectadas à rede elétrica'
     ],
-    imageUrl: '/src/assets/hardware/FERRO DE PASSAR (USAVA ELETRICIDADE).png',
+    imageUrl: '/assets/hardware/FERRO DE PASSAR (USAVA ELETRICIDADE).png',
     documentationUrl: '',
     historicalSignificance: 'Marco da eletrificação do lar. Transformou a tarefa doméstica de passar roupa, eliminando a sujeira e o perigo do fogo e fornecendo uma fonte de calor mais consistente e segura.'
   },
@@ -486,7 +486,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Velocidades: 33 1/3 e 45 RPM (Revoluções por Minuto)',
       'Uso Principal: Reprodução de música analógica'
     ],
-    imageUrl: '/src/assets/hardware/TOCA-DISCOS (TURNTABLE) POLY VOX TD 500.png',
+    imageUrl: '/assets/hardware/TOCA-DISCOS (TURNTABLE) POLY VOX TD 500.png',
     documentationUrl: '',
     historicalSignificance: 'Pilar do consumo de música na era pré-digital, representando o auge da tecnologia de áudio analógico e a busca pela alta fidelidade (Hi-Fi).'
   },
@@ -504,7 +504,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Dispositivo de Reprodução: Videocassete (VCR)',
       'Uso Principal: Entretenimento doméstico, gravação de TV'
     ],
-    imageUrl: '/src/assets/hardware/FITA CASSETE VHS.png',
+    imageUrl: '/assets/hardware/FITA CASSETE VHS.png',
     documentationUrl: '',
     historicalSignificance: 'Fundamental para a revolução do entretenimento doméstico, permitindo que o cinema entrasse nas casas das pessoas. Venceu a "Guerra dos Formatos" contra o Betamax, estabelecendo o padrão global de vídeo doméstico.'
   },
@@ -522,7 +522,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Capacidade (HD): 1.44 Megabytes (MB)',
       'Uso: Transferência de dados, Distribuição de software, Backup'
     ],
-    imageUrl: '/src/assets/hardware/DISQUETES.png',
+    imageUrl: '/assets/hardware/DISQUETES.png',
     documentationUrl: '',
     historicalSignificance: 'O primeiro meio de armazenamento removível universalmente acessível e portátil na era do PC. Foi crucial para a instalação de software e o compartilhamento de arquivos antes da era dos CDs e drives USB.'
   },
@@ -540,7 +540,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Teclado: QWERTY físico completo',
       'Conectividade: Telefone celular (GPRS/EDGE), E-mail, Navegação Web'
     ],
-    imageUrl: '/src/assets/hardware/SMARTPHONE PALMONE TREO.png',
+    imageUrl: '/assets/hardware/SMARTPHONE PALMONE TREO.png',
     documentationUrl: '',
     historicalSignificance: 'Marco na convergência de funcionalidades, sendo um dos primeiros a integrar com sucesso as capacidades de telefone e PDA, pavimentando o caminho para o conceito de smartphone moderno.'
   },
@@ -558,7 +558,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: Tela sensível ao toque, Botão Home físico',
       'Uso Principal: Comunicação, Aplicativos, Internet móvel'
     ],
-    imageUrl: '/src/assets/hardware/SMARTPHONE SAMSUNG GALAXY DUOS.png',
+    imageUrl: '/assets/hardware/SMARTPHONE SAMSUNG GALAXY DUOS.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial para popularizar a funcionalidade Dual SIM e democratizar o acesso ao ecossistema Android em mercados de massa. Contribuiu para a consolidação dos smartphones de tela sensível ao toque.'
   },
@@ -576,7 +576,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Sistema Operacional: Nokia Series 40',
       'Recursos: Câmera VGA, Rádio FM, Reprodutor de MP3 (básico)'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR NOKIA 2220 SLIDE.png',
+    imageUrl: '/assets/hardware/CELULAR NOKIA 2220 SLIDE.png',
     documentationUrl: 'https://www.maiscelular.com.br/fichas-tecnicas/nokia/2220-slide/',
     historicalSignificance: 'Exemplo do auge dos feature phones com design inovador, oferecendo estilo e funcionalidades multimídia básicas, preparando os usuários para a transição para smartphones.'
   },
@@ -594,7 +594,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: Teclado numérico físico, Display monocromático',
       'Uso Principal: Chamadas de voz'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR MOTOROLA DPC650.png',
+    imageUrl: '/assets/hardware/CELULAR MOTOROLA DPC650.png',
     documentationUrl: '',
     historicalSignificance: 'Marco na revolução da portabilidade celular, afastando-se dos "tijolões" e popularizando o design flip. Foi um símbolo de status e modernidade na metade dos anos 90.'
   },
@@ -612,7 +612,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: Tela colorida LCD/OLED, Controles físicos (roda de clique ou botões)',
       'Armazenamento: Memória Flash (2GB a 32GB), Expansão (microSD)'
     ],
-    imageUrl: '/src/assets/hardware/REPRODUTOR DE MÍDIA MP4.png',
+    imageUrl: '/assets/hardware/REPRODUTOR DE MÍDIA MP4.png',
     documentationUrl: '',
     historicalSignificance: 'Representou um avanço crucial na convergência de mídias, tornando a visualização de vídeos acessível para as massas em um formato de bolso. Foi um precursor direto dos smartphones modernos como dispositivo "tudo em um" para entretenimento.'
   },
@@ -631,7 +631,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Uso Principal: Chamadas de voz e SMS',
       'Interface: Teclado numérico físico'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR LG BX7000.png',
+    imageUrl: '/assets/hardware/CELULAR LG BX7000.png',
     documentationUrl: 'https://tfcantigos.mercadoshops.com.br/MLB-4032453179-telefone-celular-antigo-lg-bx7000-anos-2000-prateado-_JM',
     historicalSignificance: 'Ajudou a popularizar o design flip, que se tornou um padrão de mercado. Contribuiu para a consolidação da LG no crescente mercado de telefonia móvel no início dos anos 2000.'
   },
@@ -650,7 +650,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: Teclado numérico físico',
       'Uso Principal: Comunicação de voz e SMS'
     ],
-    imageUrl: '/src/assets/hardware/celular lg mx200.jpg',
+    imageUrl: '/assets/hardware/celular lg mx200.jpg',
     documentationUrl: '',
     historicalSignificance: 'Exemplo do sucesso dos celulares flip. Sua simplicidade e confiabilidade eram cruciais para a comunicação móvel de massa, pavimentando o caminho para dispositivos mais avançados.'
   },
@@ -668,7 +668,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Teclado: QWERTY físico completo e fixo',
       'Uso Principal: Mensagens de texto (SMS), E-mail, Chamadas'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR MOTOROLA MOTOKEY MINI EX108.png',
+    imageUrl: '/assets/hardware/CELULAR MOTOROLA MOTOKEY MINI EX108.png',
     documentationUrl: 'https://www.shopping1.com.br/produtos/motorola-motokey-mini-ex108-desbloqueado-semi-novo/',
     historicalSignificance: 'Inovação focada na otimização para mensagens. Foi crucial para o segmento de usuários que priorizavam a comunicação por texto antes da dominação completa dos teclados virtuais touchscreen.'
   },
@@ -687,7 +687,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Tela: Monocromática / Tons de Cinza',
       'Uso Principal: Agenda, Contatos, Notas, Lembretes'
     ],
-    imageUrl: '/src/assets/hardware/pda palm m100.jpeg',
+    imageUrl: '/assets/hardware/pda palm m100.jpeg',
     documentationUrl: '',
     historicalSignificance: 'Pioneiro na computação de bolso e organização digital. Foi um precursor direto dos smartphones, demonstrando a utilidade de um dispositivo pessoal multifuncional e compacto.'
   },
@@ -706,7 +706,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Tela: Paisagem (horizontal), não sensível ao toque',
       'Conectividade: Wi-Fi, EDGE/3G, Bluetooth'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR NOKIA E61.png',
+    imageUrl: '/assets/hardware/CELULAR NOKIA E61.png',
     documentationUrl: 'https://www.shopping1.com.br/produtos/celular-nokia-e61-seminovo/',
     historicalSignificance: 'Marcou o foco da Nokia na produtividade empresarial. Sua combinação de teclado QWERTY e tela paisagem definiu o padrão para os smartphones orientados a texto da época, sendo um passo crucial para os dispositivos móveis multifuncionais.'
   },
@@ -724,7 +724,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Recursos: Rádio FM, Acesso WAP (internet básica)',
       'Uso Principal: Chamadas de voz e SMS'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR NOKIA 2626.png',
+    imageUrl: '/assets/hardware/CELULAR NOKIA 2626.png',
     documentationUrl: 'https://www.gsmarena.com/nokia_2626-1801.php',
     historicalSignificance: 'Exemplo da diversificação de design da Nokia para o mercado de massa, tornando a telefonia móvel acessível e elegante antes da era dos smartphones de tela cheia.'
   },
@@ -743,7 +743,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Teclado: QWERTY físico completo',
       'Conectividade: Wi-Fi, 3G (HSDPA), Bluetooth'
     ],
-    imageUrl: '/src/assets/hardware/PDA HTC QTEK  A9100.png',
+    imageUrl: '/assets/hardware/PDA HTC QTEK  A9100.png',
     documentationUrl: '',
     historicalSignificance: 'Um dos pontos altos da fusão entre PDAs e telefones celulares. Seu design e funcionalidades avançadas foram essenciais para definir o conceito de smartphone moderno, especialmente no nicho corporativo.'
   },
@@ -762,7 +762,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Teclado: QWERTY físico completo',
       'Recursos: Agenda, Calendário, Notas, PC Link'
     ],
-    imageUrl: '/src/assets/hardware/SHARP YO-180 MEMO MASTER ELECTRONIC ORGANIZER COM PC LINK.jpg',
+    imageUrl: '/assets/hardware/SHARP YO-180 MEMO MASTER ELECTRONIC ORGANIZER COM PC LINK.jpg',
     documentationUrl: '',
     historicalSignificance: 'Precursor de dispositivos móveis de produtividade. Foi fundamental para familiarizar o público com a ideia de gerenciar informações pessoais e de trabalho digitalmente em um formato de bolso.'
   },
@@ -781,7 +781,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Teclado: QWERTY físico completo',
       'Memória: 128KB'
     ],
-    imageUrl: '/src/assets/hardware/ORGANIZADOR ELETRÔNICO CASIO DIGITAL DIARY SF-4900ER.png',
+    imageUrl: '/assets/hardware/ORGANIZADOR ELETRÔNICO CASIO DIGITAL DIARY SF-4900ER.png',
     documentationUrl: '',
     historicalSignificance: 'Contribuiu para a digitalização da produtividade pessoal. Foi um antecessor dos PDAs e smartphones, demonstrando a demanda por ferramentas de gerenciamento de informações portáteis.'
   },
@@ -800,7 +800,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Fator de Forma: 3.5 polegadas (Desktop)',
       'Data de Fabricação (Etiqueta): 2004.01'
     ],
-    imageUrl: '/src/assets/hardware/DISCO RÍGIDO SAMSUNG.jpg',
+    imageUrl: '/assets/hardware/DISCO RÍGIDO SAMSUNG.jpg',
     documentationUrl: 'https://hddonor.com.br/produto/samsung-sp0802n-80gb-3/',
     historicalSignificance: 'Componente central para o armazenamento persistente de dados. Representa o auge do armazenamento mecânico com interface IDE, sendo fundamental para a expansão do armazenamento em PCs de mesa.'
   },
@@ -818,7 +818,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Mídia de Gravação: Digital (MiniDV, DVD 8cm ou SD, dependendo do modelo)',
       'Uso Principal: Gravação de eventos familiares e pessoais'
     ],
-    imageUrl: '/src/assets/hardware/FILMADORA DIGITAL HITACHI.png',
+    imageUrl: '/assets/hardware/FILMADORA DIGITAL HITACHI.png',
     documentationUrl: 'https://www.enjoei.com.br/p/filmadora-camera-digital-1997-hitachi-japao-mp-eg1-funciona-94511858',
     historicalSignificance: 'Crucial para a democratização da produção de vídeo digital. Sua portabilidade e qualidade de vídeo eram superiores às dos primeiros celulares com câmera, sendo um item essencial para documentar memórias pessoais.'
   },
@@ -836,7 +836,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Uso Principal: Contabilidade, Escritórios, Comércio',
       'Funções: Adição, Subtração, Multiplicação, Divisão'
     ],
-    imageUrl: '/src/assets/hardware/MÁQUINA DE CALCULAR DE MESA OLIVETTI COM IMPRESSÃO.jpg',
+    imageUrl: '/assets/hardware/MÁQUINA DE CALCULAR DE MESA OLIVETTI COM IMPRESSÃO.jpg',
     documentationUrl: '',
     historicalSignificance: 'Símbolo da automação de escritórios, acelerando tarefas administrativas e contábeis. A fita de impressão é um precursor do log de operações em softwares modernos de contabilidade.'
   },
@@ -855,7 +855,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Dispositivos: Unidade de Disquete, Unidade de CD-ROM (novidade para a época)',
       'Sistema Operacional: MS-DOS, Windows 3.x'
     ],
-    imageUrl: '/src/assets/hardware/COMPUTADOR 386.jpg',
+    imageUrl: '/assets/hardware/COMPUTADOR 386.jpg',
     documentationUrl: 'https://pt.wikipedia.org/wiki/Compaq_Deskpro_386',
     historicalSignificance: 'Revolucionário, pois introduziu a computação de 32 bits, multitarefa e memória virtual ao PC, estabelecendo as bases para todos os processadores x86 subsequentes e para a evolução do Windows.'
   },
@@ -873,7 +873,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Áudio: Estéreo, Caixas de som integradas',
       'Uso Principal: Consumo de música portátil'
     ],
-    imageUrl: '/src/assets/hardware/SISTEMA DE SOM ESTEREO SUPERTECH PP-228CD.png',
+    imageUrl: '/assets/hardware/SISTEMA DE SOM ESTEREO SUPERTECH PP-228CD.png',
     documentationUrl: '',
     historicalSignificance: 'Crucial na transição da música analógica (cassete) para a digital (CD), popularizando o formato Compact Disc e levando o áudio digital portátil para o mercado de massa.'
   },
@@ -890,7 +890,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Tamanho (Inferido): 14 a 20 polegadas',
       'Uso Principal: Entretenimento doméstico (TV, Filmes, Videogames)'
     ],
-    imageUrl: '/src/assets/hardware/TV DE TUBO (CRT) BROKSONIC.png',
+    imageUrl: '/assets/hardware/TV DE TUBO (CRT) BROKSONIC.png',
     documentationUrl: '',
     historicalSignificance: 'Espinha dorsal do entretenimento visual doméstico por mais de meio século. A tecnologia CRT foi o padrão que permitiu a evolução dos videogames e do consumo de filmes em casa.'
   },
@@ -908,7 +908,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Mídia de Gravação: Fita MiniDV/HDV',
       'Recursos: Zoom óptico, Controles manuais, EVF, Tela LCD articulada'
     ],
-    imageUrl: '/src/assets/hardware/FILMADORA SONY HDV.png',
+    imageUrl: '/assets/hardware/FILMADORA SONY HDV.png',
     documentationUrl: 'https://pro.sony/bp_BR/products/handheld-camcorders/hvr-z5n',
     historicalSignificance: 'Revolucionou a produção de vídeo, pois tornou a gravação em Alta Definição acessível a cineastas independentes, produtoras menores e entusiastas, sendo crucial para a transição para o vídeo HD.'
   },
@@ -926,7 +926,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Modelo: 252 Milspec (Especificação Militar)',
       'Uso Principal: Iluminação de acampamentos militares e operações de campo'
     ],
-    imageUrl: '/src/assets/hardware/CANDEEIRO MILITAR.png',
+    imageUrl: '/assets/hardware/CANDEEIRO MILITAR.png',
     documentationUrl: 'https://www.ebay.com/itm/166135534334',
     historicalSignificance: 'Item com grande significado histórico, sendo uma prova da tecnologia de iluminação robusta desenvolvida para o esforço de guerra. Símbolo de confiabilidade em condições adversas.'
   },
@@ -943,7 +943,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Comunicação: RF SAW (Radio Frequency Surface Acoustic Wave) - Sem fio',
       'Uso: Sistemas de Alarme e Segurança Eletrônica (Detecção de intrusos)'
     ],
-    imageUrl: '/src/assets/hardware/SENSOR DE PRESENÇA INFRAVERMELHO PASSIVO (PIR).jpg',
+    imageUrl: '/assets/hardware/SENSOR DE PRESENÇA INFRAVERMELHO PASSIVO (PIR).jpg',
     documentationUrl: '',
     historicalSignificance: 'Marco na evolução da segurança eletrônica. A tecnologia sem fio eliminou a necessidade de passar fios, tornando os sistemas de alarme mais acessíveis, flexíveis e fáceis de instalar.'
   },
@@ -962,7 +962,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conectividade: USB',
       'Recursos: Microfone embutido, Base ajustável'
     ],
-    imageUrl: '/src/assets/hardware/WEBCAM LOGITECH C600.jpg',
+    imageUrl: '/assets/hardware/WEBCAM LOGITECH C600.jpg',
     documentationUrl: '',
     historicalSignificance: 'Crucial para a popularização da comunicação visual digital, tornando as videochamadas acessíveis a milhões de usuários. Ajudou a pavimentar o caminho para a proliferação do conteúdo gerado por usuários (vlogs, streaming).'
   },
@@ -981,7 +981,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conexão de Rede: Ethernet',
       'Uso Principal: Acesso à internet banda larga'
     ],
-    imageUrl: '/src/assets/hardware/MODEM ADSL ZTE ZXDSL  831 SERIES.jpg',
+    imageUrl: '/assets/hardware/MODEM ADSL ZTE ZXDSL  831 SERIES.jpg',
     documentationUrl: '',
     historicalSignificance: 'Item fundamental na revolução da banda larga doméstica, utilizando a infraestrutura telefônica existente para levar velocidades maiores de internet para o consumidor.'
   },
@@ -1000,7 +1000,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Portas: Porta WAN (Internet), Portas LAN (Ethernet)',
       'Uso Principal: Compartilhamento de internet e criação de rede local sem fio'
     ],
-    imageUrl: '/src/assets/hardware/ROUTER DE BANDA LARGA WIRELESS-G COMPACTOR.jpg',
+    imageUrl: '/assets/hardware/ROUTER DE BANDA LARGA WIRELESS-G COMPACTOR.jpg',
     documentationUrl: '',
     historicalSignificance: 'Catalisador da revolução da conectividade sem fio, tornando o Wi-Fi doméstico acessível e popular. Proporcionou liberdade de movimento e permitiu o compartilhamento de internet entre múltiplos dispositivos.'
   },
@@ -1018,7 +1018,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Interface: Touchscreen, Botões virtuais/capacitivos',
       'Uso Principal: Aplicativos, Redes Sociais, Comunicação, Internet móvel'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR BLU STUDIO 5.0.jpg',
+    imageUrl: '/assets/hardware/CELULAR BLU STUDIO 5.0.jpg',
     documentationUrl: 'https://www.tudocelular.com/Blu/precos/n2902/Blu-Studio-5-0.html',
     historicalSignificance: 'Foi um dos aparelhos-chave na democratização dos smartphones Android, levando a tecnologia de tela sensível ao toque e o acesso a aplicativos para uma fatia maior da população.'
   },
@@ -1036,7 +1036,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Funcionalidade: Dual SIM (Duos)',
       'Interface: Tela sensível ao toque, Botão Home físico'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR SAMSUNG GALAXY ACE 4 DUOS.jpg',
+    imageUrl: '/assets/hardware/CELULAR SAMSUNG GALAXY ACE 4 DUOS.jpg',
     documentationUrl: 'https://www.tudocelular.com/Samsung/precos/n2914/Samsung-Galaxy-Ace-4-Duos.html',
     historicalSignificance: 'Contribuiu significativamente para a expansão do Android em mercados de massa. Sua popularidade demonstrou a demanda por smartphones Dual SIM acessíveis de marcas consolidadas.'
   },
@@ -1054,7 +1054,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Software: Android "Puro" (poucas modificações)',
       'Recursos de Áudio: Alto-falantes estéreo frontais'
     ],
-    imageUrl: '/src/assets/hardware/CELULAR MOTOROLA MOTO G2.jpg',
+    imageUrl: '/assets/hardware/CELULAR MOTOROLA MOTO G2.jpg',
     documentationUrl: 'https://www.youtube.com/watch?v=ZJew7btyS-c',
     historicalSignificance: 'Revolucionou o segmento intermediário de smartphones, provando que é possível oferecer qualidade e atualizações consistentes a um preço acessível. Revitalizou a marca Motorola no mercado global.'
   },
@@ -1072,7 +1072,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conexão: Paralela ou USB (dependendo da versão)',
       'Uso Principal: Documentos escolares, fotos domésticas, gráficos'
     ],
-    imageUrl: '/src/assets/hardware/IMPRESSORA HP DESKJET 930C.jpg',
+    imageUrl: '/assets/hardware/IMPRESSORA HP DESKJET 930C.jpg',
     documentationUrl: '',
     historicalSignificance: 'Fundamental para a popularização da impressão colorida de alta qualidade em casa e em pequenos escritórios, consolidando a HP como líder no mercado de impressoras de consumo.'
   },
@@ -1089,7 +1089,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Mecanismo: Abas/Palhetas que viram mecanicamente',
       'Uso Principal: Cronometragem doméstica e de escritório'
     ],
-    imageUrl: '/src/assets/hardware/RELÓGIO FLIP VINTAGE ESKA.jpg',
+    imageUrl: '/assets/hardware/RELÓGIO FLIP VINTAGE ESKA.jpg',
     documentationUrl: '',
     historicalSignificance: 'Reflete uma fase intermediária na evolução da cronometragem, sendo um símbolo de design icônico e funcionalidade mecânica na era pré-digital.'
   },
@@ -1107,7 +1107,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Uso: Sistemas de Áudio Modulares (Mini Systems)',
       'Função: Amplificação de potência para alto-falantes'
     ],
-    imageUrl: '/src/assets/hardware/AMPLIFICADOR ESTÉREO PIONEER A-P510.jpg',
+    imageUrl: '/assets/hardware/AMPLIFICADOR ESTÉREO PIONEER A-P510.jpg',
     documentationUrl: 'https://www.mercadolivre.com.br/som-integrado-pioneer-ap510-pioneer-japan/up/MLBU1465933231',
     historicalSignificance: 'Representa a era do áudio estéreo de alta fidelidade e a tendência de sistemas modulares. Sua qualidade de áudio superior era o padrão para o consumo de música doméstica antes do boom dos formatos digitais portáteis.'
   },
@@ -1125,7 +1125,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Fatores de Forma: PGA (Pin Grid Array) e LGA (Land Grid Array - inferido)',
       'Uso: Computadores Desktop e Notebooks'
     ],
-    imageUrl: '/src/assets/hardware/PROCESSADORES.jpg',
+    imageUrl: '/assets/hardware/PROCESSADORES.jpg',
     documentationUrl: '',
     historicalSignificance: 'Testemunha o crescimento exponencial do poder de processamento. A competição entre Intel e AMD, visível pela variedade, impulsionou a inovação e o barateamento da tecnologia de processamento.'
   },
@@ -1144,7 +1144,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Conexão: Antena externa',
       'Uso Principal: Adicionar Wi-Fi a PCs Desktop'
     ],
-    imageUrl: '/src/assets/hardware/PLACA PCI WIRELESS-G 54MBPS ENCORE ENLWI-G2.jpg',
+    imageUrl: '/assets/hardware/PLACA PCI WIRELESS-G 54MBPS ENCORE ENLWI-G2.jpg',
     documentationUrl: '',
     historicalSignificance: 'Tornou o acesso Wi-Fi acessível e prático para usuários de computadores desktop, contribuindo para a transição de redes totalmente cabeadas para redes sem fio em residências e escritórios.'
   },
@@ -1162,7 +1162,7 @@ export const hardwareCollection: HardwareItem[] = [
       'Formatos: SODIMM (Notebook) e DIMM (Desktop - Inferido)',
       'Uso: Memória de trabalho temporária do sistema'
     ],
-    imageUrl: '/src/assets/hardware/MEMÓRIA RAM.jpg',
+    imageUrl: '/assets/hardware/MEMÓRIA RAM.jpg',
     documentationUrl: '',
     historicalSignificance: 'Componente crítico que ilustra a rápida evolução da capacidade e velocidade da memória (DDR2 é mais rápido que DDR1), sendo fundamental para o aumento da multitarefa e o desempenho geral dos PCs.'
   }
