@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
@@ -9,7 +9,7 @@ import { Admin } from './pages/Admin';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,6 +20,6 @@ export default function App() {
         </Routes>
       </Layout>
       <Toaster position="top-right" richColors />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
