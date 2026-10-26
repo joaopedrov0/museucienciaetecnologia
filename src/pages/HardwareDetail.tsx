@@ -47,7 +47,7 @@ export function HardwareDetail() {
             <div className="sticky top-24">
               <div className="bg-white rounded-2xl overflow-hidden shadow-xl border border-slate-200">
                 <ImageWithFallback
-                  src={item.imageUrl}
+                  src={`${import.meta.env.BASE_URL}${item.imageUrl.replace(/^\/+/, '')}`}
                   alt={item.name}
                   className="w-full h-[400px] object-cover"
                 />
