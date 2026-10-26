@@ -23,7 +23,7 @@ export function HardwareCard({ item, index }: HardwareCardProps) {
         {/* Image */}
         <div className="relative h-48 bg-slate-100 overflow-hidden">
           <ImageWithFallback
-            src={item.imageUrl}
+            src={`${import.meta.env.BASE_URL}${item.imageUrl.replace(/^\/+/, '')}`}
             alt={item.name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
