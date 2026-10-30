@@ -6,6 +6,7 @@ import { Collection } from './pages/Collection';
 import { HardwareDetail } from './pages/HardwareDetail';
 import { Schedule } from './pages/Schedule';
 import { Admin } from './pages/Admin';
+import { StudentProjects } from './pages/StudentProjects';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/peca/:id" element={<HardwareDetail />} />
           <Route path="/agendar" element={<Schedule />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/trabalhos" element={<StudentProjects />} />
         </Routes>
       </Layout>
       <Toaster position="top-right" richColors />

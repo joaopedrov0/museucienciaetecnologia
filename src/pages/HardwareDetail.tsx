@@ -184,7 +184,7 @@ export function HardwareDetail() {
                   className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-amber-600"
                 >
                   <ImageWithFallback
-                    src={relatedItem.imageUrl}
+                    src={`${import.meta.env.BASE_URL}${relatedItem.imageUrl.replace(/^\/+/, '')}`}
                     alt={relatedItem.name}
                     className="w-full h-40 object-cover group-hover:scale-105 transition-transform"
                   />

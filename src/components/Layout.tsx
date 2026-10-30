@@ -10,9 +10,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const navLinks = [
     { path: '/', label: 'Sobre' },
     { path: '/acervo', label: 'Acervo' },
-    { path: '/agendar', label: 'Agendar Visita' }
+    { path: '/agendar', label: 'Agendar Visita' },
+    { path: '/trabalhos', label: 'Trabalhos dos Alunos' }
   ];
-
   const isActive = (path: string) => location.pathname === path;
 
   return (
